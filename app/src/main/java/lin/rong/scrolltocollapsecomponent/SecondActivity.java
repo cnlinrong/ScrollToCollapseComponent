@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.tencent.bugly.crashreport.CrashReport;
+
 /**
  * Created by dell on 2017/1/3.
  */
@@ -21,6 +23,8 @@ public class SecondActivity extends Activity implements ScrollToCollapseComponen
         ScrollToCollapseComponent scrollToCollapseComponent = new ScrollToCollapseComponent(SecondActivity.this);
         scrollToCollapseComponent.setScrollToCollapseComponentViews(this);
         setContentView(scrollToCollapseComponent);
+
+//        CrashReport.testJavaCrash();
     }
 
     @Override

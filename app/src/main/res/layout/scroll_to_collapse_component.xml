@@ -12,7 +12,7 @@
         <RelativeLayout
             android:id="@+id/top_content"
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="wrap_content">
 
         </RelativeLayout>
 
@@ -34,10 +34,9 @@
             android:id="@+id/bottom_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scrollbars="none"
-            android:background="#999">
+            android:background="#666"
+            android:scrollbars="none" />
 
-        </ScrollView>
     </RelativeLayout>
 
 </LinearLayout>
